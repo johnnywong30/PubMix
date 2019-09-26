@@ -11,17 +11,12 @@ This will be a single page application, primarily testing my JavaScript abilitie
 BootStrap will be used as the front-end-framework.
 
 ### Concrete Goals?
-[] Database Access
-
-[] Login/Register
-
-[] Switch between workouts/to-do lists
-
-[] Adding items to each list
-
-[] Removing items
-
-[] Updating items
+- [] Database Access
+- [] Login/Register
+- [] Switch between workouts/to-do lists
+- [] Adding items to each list
+- [] Removing items
+- [] Updating items
 
 ### Stretch Goals?
 1. Uploading and storing images.
