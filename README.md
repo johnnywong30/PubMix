@@ -12,10 +12,15 @@ BootStrap will be used as the front-end-framework.
 
 ### Concrete Goals?
 [] Database Access
+
 [] Login/Register
+
 [] Switch between workouts/to-do lists
+
 [] Adding items to each list
+
 [] Removing items
+
 [] Updating items
 
 ### Stretch Goals?
