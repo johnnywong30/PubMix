@@ -8,37 +8,33 @@
    <link rel="stylesheet" href="static/index.css">
  </head>
  <body>
-  <div class="container-fluid">
+  <div id="home" class="container-fluid">
     <h1 id="logo" class="text-light text-center pt-3">PubMix</h1>
 
     <div id="login" class="row flex-xl justify-content-center">
       <div class="col-md-4">
-        <form method="POST">
           <div class="col-md-12">
             <input class="form-control mr-sm-2" type="text" name="username" placeholder="Username" required>
           </div>
           <div class="col-md-12">
             <input class="form-control mr-sm-2" type="password" name="password" placeholder="Password" required>
-            <button id="tryLogin" class="btn btn-block btn-info" type="submit" name="submit">Login</button>
+            <button id="tryLogin" class="btn btn-block btn-info" type="button" onclick="goLogin()">Login</button>
             <button id="getRegister" class="btn btn-block btn-warning mb-2">Don't have an account?</button>
           </div>
-        </form>
       </div>
     </div>
 
     <div id="register" class="row flex-xl justify-content-center">
       <div class="col-md-4">
-        <form method="POST">
           <div class="col-md-12">
             <input class="form-control mr-sm-2" type="text" name="username" placeholder="Username" required>
           </div>
           <div class="col-md-12">
             <input class="form-control mr-sm-2" type="password" name="password" placeholder="Password" required>
             <input class="form-control mr-sm-2" type="password" name="password" placeholder="Confirm Password" required>
-            <button id="tryRegister" class="btn btn-block btn-info" type="submit" name="submit">Register</button>
+            <button id="tryRegister" class="btn btn-block btn-info" type="button" onclick="goRegister()">Register</button>
             <button id="getLogin" class="btn btn-block btn-warning mb-2">Already have an account?</button>
           </div>
-        </form>
       </div>
     </div>
 

@@ -22,4 +22,25 @@ var toggle = function (e) {
 getRegister.addEventListener('click', toggle)
 getLogin.addEventListener('click', toggle)
 
-// validate form
+// Login and Register Fxns
+var goLogin = function(){
+  console.log('uwu');
+
+
+};
+
+var goRegister = function(){
+  console.log('owo');
+};
+
+var ajaxTemp = function(){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function(){
+    if (this.readyState == 4 && this.status == 200){
+      // do something
+    }
+  };
+  script = ""
+  xhttp.open("GET", script, true);
+  xhttp.send();
+}

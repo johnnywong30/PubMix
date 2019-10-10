@@ -9,6 +9,7 @@ have to do.
 ### How will this project accomplish these goals?
 This will be a single page application, primarily testing my JavaScript abilities.
 BootStrap will be used as the front-end-framework.
+EDIT: Will need to use Flask as back-end.
 
 ### Concrete Goals?
 - [ ] Database Access
