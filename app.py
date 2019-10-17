@@ -62,6 +62,17 @@ def authenticate():
             url = "login"
     return redirect(url_for(url))
 
+@app.route("/logout")
+def logout():
+    '''Logs user out'''
+    if 'username' not in session:
+        return redirect(url_for("login"))
+    session.pop('username', None)
+    flash("Successfully logged out!")
+    return redirect(url_for("login"))
+
+
+
 @app.route("/home")
 def home():
     '''Home Page'''
