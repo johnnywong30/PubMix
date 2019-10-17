@@ -12,8 +12,8 @@ BootStrap will be used as the front-end-framework.
 EDIT: Will need to use Flask as back-end.
 
 ### Concrete Goals?
-- [ ] Database Access
-- [ ] Login/Register
+- [x] Database Access
+- [x] Login/Register
 - [ ] Switch between workouts/to-do lists
 - [ ] Adding items to each list
 - [ ] Removing items
