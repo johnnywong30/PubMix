@@ -7,11 +7,14 @@
 import os
 
 from flask import Flask, render_template, redirect, url_for, session, request, flash, get_flashed_messages
+from flask_ngrok import run_with_ngrok
+
 from util import db
 
 # instantiate Flask Object
 app = Flask(__name__)
 app.secret_key = os.urandom(32)
+run_with_ngrok(app) # start ngrok when app run
 
 DB_FILE = "data/pubmix.db"
 db.create_db()
